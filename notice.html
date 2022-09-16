@@ -18,10 +18,32 @@
         display: flex;
         margin-left: auto;
       }
+      @media (max-width: 600px) {
+        .nav-right-items {
+          font-size: 15px;
+        }
+      }
+      @media (max-width: 400px) {
+        .nav-right-items {
+          font-size: 15px;
+        }
+      }
 
       .nav-item {
-        margin-left: 10px;
-        margin-right: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      @media (max-width: 600px) {
+        .nav-item {
+          margin-left: 10px;
+          margin-right: 10px;
+        }
+      }
+      @media (max-width: 400px) {
+        .nav-item {
+          margin-left: 7px;
+          margin-right: 7px;
+        }
       }
 
       .name {
@@ -29,6 +51,11 @@
         font-weight: bold;
         font-size: 20px;
         text-decoration-line: none;
+      }
+      @media (max-width: 600px) {
+        .name {
+          font-size: 17px;
+        }
       }
 
       a{
@@ -46,6 +73,14 @@
         border-top: 1px solid rgba(50, 50, 50, 0.5);
         border-bottom: 1px solid rgba(50, 50, 50, 0.5);
         padding: 20px;
+        font-size: 15px;
+      }
+      @media (max-width: 600px)
+      {
+        th, td{
+          font-size: 12px;
+          padding: 15px;
+        }
       }
 
       .title {
@@ -54,12 +89,24 @@
         font-weight: bold;
         margin-top: 0;
       }
+      @media (max-width: 600px) {
+        .title {
+          font-size: 40px;
+        }
+      }
+      
 
       .main {
-        width: 800px;
+        width: 75%;
         margin: 0 auto;
         margin-top: 25px;
         text-align: center;
+      }
+      @media (max-width: 600px)
+      {
+        .main{
+          width: 100%;
+        }
       }
 
       
@@ -115,12 +162,14 @@
       <div class="notice">
         <table>
             <tr>
-                <td>8/31(수) 다사리 인문학 기행 [다산유적지/실학박물관]</td>
+              <td></td>
             </tr>
             <tr>
-                <td>나에게 맞는 반티 사이즈 알아오기</td>
+              <td></td>
             </tr>
-            <tr> </tr>
+            <tr> 
+              <td></td>
+            </tr>
         </table>
       </div>
     </div>
