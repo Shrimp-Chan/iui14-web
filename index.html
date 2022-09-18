@@ -1,175 +1,185 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta name="keyword" content="이의중, 1학년 4반">
-    <meta name="author" content="JoYunChan">
-    <title>이의중 1-4</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
 
-    <style>
-      .nav {
-        height: 70px;
-        border-bottom: 1px solid black;
-        display: flex;
-        align-items: center;
-        width: 100%;
-      }
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="keyword" content="이의중, 1학년 4반">
+  <meta name="author" content="JoYunChan">
+  <title>이의중 1-4</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
 
+  <style>
+    .nav {
+      height: 70px;
+      border-bottom: 1px solid black;
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+
+    .nav-right-items {
+      display: flex;
+      margin-left: auto;
+    }
+
+    @media (max-width: 600px) {
       .nav-right-items {
-        display: flex;
-        margin-left: auto;
-      }
-
-      @media (max-width: 600px) {
-        .nav-right-items {
-          font-size: 15px;
-        }
-      }
-      @media (max-width: 400px) {
-        .nav-right-items {
-          font-size: 15px;
-        }
-      }
-
-      .nav-item {
-        margin-left: 20px;
-        margin-right: 20px;
-      }
-      @media (max-width: 600px) {
-        .nav-item {
-          margin-left: 10px;
-          margin-right: 10px;
-        }
-      }
-      @media (max-width: 400px) {
-        .nav-item {
-          margin-left: 7px;
-          margin-right: 7px;
-        }
-      }
-      
-
-      .name {
-        margin-left: 10px;
-        font-weight: bold;
-        font-size: 20px;
-        text-decoration-line: none;
-      }
-      @media (max-width: 600px) {
-        .name {
-          font-size: 17px;
-        }
-      }
-
-      a{
-        text-decoration-line: none;
-        color: inherit;
-      }
-
-      .title {
-        text-align: center;
-        font-size: 100px;
-        font-weight: bold;
-        margin-top: 0;
-      }
-
-      @media (max-width: 600px) {
-        .title {
-          font-size: 75px;
-        }
-      }
-
-
-      .subtitle {
-        text-align: center;
-        font-size: 25px;
-        font-weight: 300;
-        margin-top: 10px;
-      }
-      @media (max-width: 600px) {
-        .subtitle {
-          font-size: 19px;
-        }
-      }
-      @media (max-width: 400px) {
-        .subtitle {
-          font-size: 17px;
-        }
-      }
-
-
-      .main {
-        width: 100%;
-        margin: 0 auto;
-        margin-top: 100px;
-        text-align: center;
-        /* border: 1px solid black; */
-      }
-
-      
-
-      .bottom {
-        width: 100%;
-        height: 70px;
-        border-top: 1px solid black;
-        /* margin-top: 400px; */
-        background: rgba(180, 180, 180, 0.1);
-        /* text-align: right; */
-        position: fixed;
-        bottom: 10px;
-      }
-
-      .copyright {
         font-size: 15px;
-        font-weight: 300;
-        position: fixed;
-        right: 10px;
-        display: flex;
-        margin-top: 40px;
       }
-    </style>
-  </head>
-  <body>
-    
-    <div class="nav">
-      <div class="name">
-        <a href="../index.html">이의중 1-4</a>
+    }
+
+    @media (max-width: 400px) {
+      .nav-right-items {
+        font-size: 15px;
+      }
+    }
+
+    .nav-item {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .nav-item {
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .nav-item {
+        margin-left: 7px;
+        margin-right: 7px;
+      }
+    }
+
+
+    .name {
+      margin-left: 10px;
+      font-weight: bold;
+      font-size: 20px;
+      text-decoration-line: none;
+    }
+
+    @media (max-width: 600px) {
+      .name {
+        font-size: 17px;
+      }
+    }
+
+    a {
+      text-decoration-line: none;
+      color: inherit;
+    }
+
+    .title {
+      text-align: center;
+      font-size: 100px;
+      font-weight: bold;
+      margin-top: 0;
+    }
+
+    @media (max-width: 600px) {
+      .title {
+        font-size: 75px;
+      }
+    }
+
+
+    .subtitle {
+      text-align: center;
+      font-size: 25px;
+      font-weight: 300;
+      margin-top: 10px;
+    }
+
+    @media (max-width: 600px) {
+      .subtitle {
+        font-size: 19px;
+      }
+    }
+
+    @media (max-width: 400px) {
+      .subtitle {
+        font-size: 17px;
+      }
+    }
+
+
+    .main {
+      width: 100%;
+      margin: 0 auto;
+      margin-top: 100px;
+      text-align: center;
+      /* border: 1px solid black; */
+    }
+
+
+
+    .bottom {
+      width: 100%;
+      height: 70px;
+      border-top: 1px solid black;
+      /* margin-top: 400px; */
+      background: rgba(180, 180, 180, 0.1);
+      /* text-align: right; */
+      position: fixed;
+      bottom: 10px;
+    }
+
+    .copyright {
+      font-size: 15px;
+      font-weight: 300;
+      position: fixed;
+      right: 10px;
+      display: flex;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="nav">
+    <div class="name">
+      <a href="../index.html">이의중 1-4</a>
+    </div>
+    <div class="nav-right-items">
+      <div class="nav-item">
+        <a href="../notice.html">공지사항</a>
       </div>
-      <div class="nav-right-items">
-        <div class="nav-item">
-            <a href="../notice.html">공지사항</a>
-        </div>
-        <div class="nav-item">
-            <a href="../time.html">시간표</a>
-        </div>
-        <div class="nav-item">
-            <a href="../food.html">급식표</a>
-        </div>
-        <div class="nav-item">
-            <a href="https://www.youtube.com/watch?v=eN5mG_yMDiM">업데이트 예정</a>
-        </div>
+      <div class="nav-item">
+        <a href="../time.html">시간표</a>
       </div>
+      <div class="nav-item">
+        <a href="../food.html">급식표</a>
+      </div>
+      <div class="nav-item">
+        <a href="https://www.youtube.com/watch?v=eN5mG_yMDiM" id="goback">업데이트 예정</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="main">
+    <div class="title" id="heading">
+      이의중 1-4
     </div>
 
-    <div class="main">
-      <div class="title">
-        이의중 1-4
-      </div>
-      <div class="subtitle">
-        함께 만들어가는 공간, 더 업그레이드 될 예정입니다!
-      </div>
-      
+    <div class=" subtitle">
+      함께 만들어가는 공간, 더 업그레이드 될 예정입니다!
     </div>
 
-    <div class="bottom">
-        <div class="copyright">
-            Copyright ⓒ JoYunChan. All right reserved.
-        </div>
+  </div>
+
+  <div class="bottom">
+    <div class="copyright">
+      <a href="https://github.com/Shrimp-Chan/iui14-web">Copyright ⓒ JoYunChan. All right reserved.</a> 
     </div>
-    
-    <script src="script.js"></script>
-    </script> 
-  </body>
+  </div>
+
+  <script src="goBack.js"></script>
+</body>
+
 </html>
