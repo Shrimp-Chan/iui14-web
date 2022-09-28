@@ -73,13 +73,30 @@
         border-top: 1px solid rgba(50, 50, 50, 0.5);
         border-bottom: 1px solid rgba(50, 50, 50, 0.5);
         padding: 20px;
-        font-size: 23px;
       }
       @media (max-width: 600px)
       {
         th, td{
-          font-size: 12px;
           padding: 15px;
+        }
+      }
+
+      .bigNotice {
+        font-size: 23px;
+      }
+
+      .smallNotice {
+        font-size: 17px;
+      }
+
+      @media (max-width: 600px)
+      {
+        .bigNotice{
+          font-size: 14px;
+        }
+
+        .smallNotice{
+          font-size: 12px;
         }
       }
 
@@ -162,12 +179,12 @@
       <div class="notice">
         <table>
             <tr>
-              <td >9/30(금)/ 체육대회 & 축제!!!! 꼭 반티 입어 오고 준비해오기!</td>
+              <td><div class="bigNotice">9/30(금)/ 체육대회 & 축제!!! 꼭 반티 입어 오고 준비해오기!</h1></td>
             </tr>
-            <!-- <tr>
-              <td></td>
+            <tr>
+              <td><div class="smallNotice">10/5(수)/ 기가 휴대폰 거치대 만들기 재료 가져오기</div></td>
             </tr>
-            <tr> 
+            <!-- <tr> 
               <td></td>
             </tr> -->
         </table>
