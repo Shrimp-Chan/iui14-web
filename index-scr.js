@@ -6,7 +6,7 @@ heading.onclick = function () {
 
 var name=prompt("Who the f**k are you?");
 
-if(name=="김규진" || name=="규진")
+if(name=="정하윤" || name=="하윤")
 {
   alert("넌 꺼져")
 }
